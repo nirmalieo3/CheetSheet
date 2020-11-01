@@ -1,0 +1,81 @@
+body{
+	background: rgb(140, 186, 250);
+}
+
+.first {
+        border-style: ridge;
+        border-width: 100px;
+        border-color: #8ebf42;
+        background-color: #d9d9d9;
+        margin: 0 auto;
+      }
+
+      .first caption {
+
+      	font-size: 30px;
+      	font-weight: bold;
+      	padding: 40px;
+      }
+      .first th {
+        border: 10px solid #095484;
+        font-size: 30px;
+        padding: 10px;
+      }
+      .first td {
+        border: 10px groove #1c87c9;
+        font-size: 25px;
+        font-weight:500;
+        padding: 10px;
+
+      }
+      .col1 .col {
+      	font-size: 35px;
+      	font-weight: bold;
+      	padding: 20px;
+      }
+      .first tfoot td{
+      	font-weight: bold;
+      	font-size: 30px;
+         
+      }
+
+      .second {
+        
+        border: 5px solid black;
+        margin: 0 auto;
+        width: 800px;
+      
+      }
+      .second caption {
+      	font-size: 30px;
+      	font-weight: bold;
+      	margin-top: 50px;
+      	padding: 20px;
+      }
+
+      .second tbody tr:nth-child(even){
+       background:rgb(140, 142, 145);
+      }
+
+      .second tbody tr:nth-child(odd){
+      	background: rgb(210, 212, 214);
+      }
+
+      .second tr, .second td, .second th {
+      	padding: 10px;
+      	font-size: 25px;
+      }
+      .second thead {
+      	background: black;
+     	color: white;
+      }
+
+      .second tfoot {
+      	background: black;
+      	color: white;
+      }
+      .col2 .col {
+        font-weight: bold;
+        background-color: rgba(15, 15, 15,.9);
+        color:white;
+      }
